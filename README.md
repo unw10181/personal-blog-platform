@@ -11,4 +11,8 @@ The known issues in program were.
 - Could add a confirmation toast instead of `confirm()` for deletes.
 - Add "updated at" display for edited posts.
 
+
+https://github.com/unw10181/personal-blog-platform
+https://unw10181.github.io/personal-blog-platform/
+
 Uchenna Williams
