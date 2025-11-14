@@ -10,15 +10,28 @@
   <body>
     <section id="post-form" class="card">
       <h1 id="form-heading">Create New Post</h1>
-      <form action="#">
-        <div class="form-group"></div>
-        <div class="form-group"></div>
-        <div class="form-actions"></div>
+      <form action="#" id="form">
+        <div class="form-group">
+          <label for="title"></label>
+          <input type="text" id="title" name="title" />
+          <span class="error-message" id="titleError"></span>
+        </div>
+        <div class="form-group">
+          <label for="content"></label>
+          <input type="text" id="content" name="content" />
+          <small>Should be atleast 10 characters</small>
+          <span class="error-message" id="contentError"></span>
+        </div>
+        <div class="form-actions">
+            
+        </div>
       </form>
     </section>
     <section id="post-display" class="card">
       <h2>Posts</h2>
-      <div id="post-container"></div>
+      <div id="post-container">
+        <ul id="post-list"></ul>
+      </div>
     </section>
   </body>
 </html>
